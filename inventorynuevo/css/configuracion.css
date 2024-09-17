@@ -1,0 +1,100 @@
+h1{
+    text-align: center;
+}
+
+#confi{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.perrahijueputa{
+    width: 900px;
+    background-color: rgb(212, 211, 211);
+    margin: auto;
+    padding: 0.6em;
+}
+
+/* .perfil{
+    width: 900px;
+    margin: auto;
+    padding: 1.2em;
+    background-color:rgb(212, 211, 211) ;
+} */
+
+.noti{
+    width: 900px;
+    margin: auto;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    padding-left: 0.6em;
+}
+
+.itemm{
+    width: 100%;
+    margin-bottom: 0.9em;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono{
+    margin-right: 0.7em !important;
+}
+
+.item-usuario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.usuario{
+    font-size: 9em !important;
+    line-height: normal;
+}
+
+.item-perfil{
+    font-size: 20px;
+    margin-bottom: 2em;
+}
+
+.boton, .item-perfil{
+    text-align: center;
+}
+
+.boton{
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.field label{
+    font-size: 1em !important;
+}
+
+.noti, .item-perfil, #texto, .label_icon{
+    font-weight: bold;
+}
+
+.label_icon{
+    font-size: 1.1em;
+}
+
+#activar, #oscuro{
+    font-size: 28px !important;
+}
+
+.espacio_icon{
+    margin-left: 0.5%;
+}
+
+.mensaje{
+    font-weight: 450;
+}

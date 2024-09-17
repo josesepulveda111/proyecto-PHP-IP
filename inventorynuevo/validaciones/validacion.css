@@ -1,0 +1,37 @@
+.grupo-correcto .grupo_input{
+    color: black !important;
+}
+
+
+.grupo-incorrecto .grupo_label{
+    color: red !important;
+    opacity: 3 !important;
+}
+
+.grupo-incorrecto .grupo_input{
+    border: 1px solid red !important;
+}
+
+.error{
+    font-size: 12px !important;
+    display: none !important;
+    color: red !important;
+}
+
+.error-activo{
+    display: block !important;
+    color: red !important;
+    font-size: 12px !important;
+}
+
+.error2{
+    font-size: 12px !important;
+    display: none !important;
+    color: red !important;
+}
+
+.error2-activo{
+    display: block !important;
+    color: red !important;
+    font-size: 12px !important;
+}

@@ -1,0 +1,113 @@
+.dark{
+    background-color: black !important;
+    color: white !important;
+}
+
+.dark label{
+    color: white !important;
+}
+
+.dark section{
+    background-color: rgb(27, 26, 26) !important;
+}
+
+.dark .sidebar.open{
+    background-color: black !important;
+    color: white !important;
+}
+
+.dark span{
+    color: white !important;
+}
+
+.dark .sidebar.close{
+    background-color: black !important;
+}
+
+
+.dark .sub-menu{
+    background-color: black !important;
+}
+
+.dark .sidebar.open .sub-menu li{
+    background-color: black !important;
+}
+
+.dark a{
+    color: #ff0043 !important;
+}
+
+.dark .sidebar .nav-links li .sub-menu a{
+    color: white !important;
+}
+
+.dark .sidebar .nav-links .sub-menu li a.activo{
+    background-color: black !important;
+}
+
+.dark .sidebar .nav-links li .sub-menu a:hover{
+    color: #ff0043 !important;
+}
+
+.dark .sidebar .nav-links li .sub-menu a:hover{
+    background-color: black !important;
+}
+
+.dark .sidebar.close .nav-links li .sub-menu a{
+    background-color: black !important;
+    border-radius: 0%;
+}
+
+.dark .sidebar.close .nav-links li:hover .sub-menu .link_name li{
+    background-color: black !important;
+    padding: 0 !important;
+}
+
+.dark .sidebar.close .nav-links li:hover .sub-menu .link_name{
+    background-color: black !important;
+}
+
+.dark .perrahijueputa, .dark .perfil{
+    background-color: rgb(48, 48, 48) !important;
+}
+
+.dark .ui.table thead th{
+    background-color: black !important;
+    color: white;
+}
+
+.dark .ui.table tr td{
+    background-color: rgb(34, 33, 33);
+    color: white;
+}
+
+.dark .ui.form, .dark .content{
+    background-color: rgb(48, 48, 48);
+}
+
+.dark .contentp{
+    background-color:rgb(27, 26, 26) !important;
+}
+
+.dark .ui.pagination.menu .item.active{
+    background-color: black !important;
+}
+
+.dark #formulario{
+    background-color: rgb(27, 26, 26) ;
+}
+
+.dark select, .dark ::placeholder{
+    background-color: gray !important;
+    color: white !important;
+}
+
+.dark .field input, .dark textarea{
+    background-color: gray !important;
+    cursor:pointer  !important;
+    color: black !important;
+}
+
+.dark .ui.pagination.menu .item{
+    background-color: rgb(48, 48, 48) !important;
+}

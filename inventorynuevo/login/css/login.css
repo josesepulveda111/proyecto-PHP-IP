@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.containerr{
+    width: 38em;
+    height: 30em;
+    background: white;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container_recuperar{
+    width: 38em;
+    height: 25em;
+    background: white;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container_actualizar_contra{
+    width: 38em;
+    height: 29em;
+    background: white;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.container_form{
+    width: 30em;
+    height: auto;
+    margin: auto;
+}
+
+#formulario{
+    height: 10em;
+    padding: 11px 20px 0 20px;
+}
+
+.titulo{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    color: #FF0043;
+}
+
+.titulo_2{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: justify;
+    width: 30em;
+    margin-left: 7% ;
+    margin-top: 10px;
+    color: black;
+}
+
+.boton{
+    margin-top: 40px;
+}
+
+.inputbox{
+    position: relative;
+    height: 60px;
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 20%;
+    left: 1px;
+    transform: translateY(80%);
+    pointer-events: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.inputbox #icono,#icono2{
+    position: absolute;
+    right: 8px;
+    font-size: 1.5em;
+    line-height: 79px;
+}
+
+.inputbox input:focus~label,
+.inputbox input:valid~label{
+    top: -22px;
+    color: #FF0043;
+}
+
+.inputbox input:focus,
+.inputbox input:valid{
+    border-bottom-color: #FF0043;
+}
+
+/* #icono{
+    font-size: 20px;
+    position: absolute;
+    transform: translateY(-20%);
+    top: 95%;
+    right: 19px;
+} */
+
+
+#btn_login{
+    width: 30%;
+    background-color: #FF0043 !important;
+    color: white;
+    border-radius: 12px;
+}
+
+#btn_recuperar_contra{
+    width: 30%;
+    background-color: #FF0043 !important;
+    color: white;
+    border-radius: 12px;
+}
+
+#btn_actualizar_contra{
+    width: 30%;
+    background-color: #FF0043 !important;
+    color: white;
+    border-radius: 12px;
+}
+
+#btn_regresar{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    width: 11%;
+    background-color: #FF0043 !important;
+    color: white;
+    border-radius: 12px;
+}
+
+.recuperar{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
